@@ -47,7 +47,7 @@ export default function Home() {
             <div className="login-box"> </div>
             <p className="text">Don't have an account?<a href="#">Sign up</a></p>
           </div> {/* Signup-box end */}
-          
+          </>
 
     
   )
