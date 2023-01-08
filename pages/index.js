@@ -44,7 +44,7 @@ export default function Home() {
                 </form>
               </div> {/* Form-wrap end */}
             </div> {/* Login-box end */}
-            <button type="submit"> <div className="login-box"> </div></button>
+            <div className="login-box"> </div>
             <p className="text">Don't have an account?<a href="#">Sign up</a></p>
           </div> {/* Signup-box end */}
           <div className="app">
