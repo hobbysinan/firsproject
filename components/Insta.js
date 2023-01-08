@@ -37,7 +37,7 @@ autocorrect="off" />
         Log In
       </button>
 <div>
-  <a className="forgot" href>Forgot password?</a>
+  <a className="forgot" href>Forgot password? />
   
 </div>
   );
