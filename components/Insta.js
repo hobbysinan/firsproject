@@ -12,10 +12,7 @@ function Insta() {
 <div class="input-box">
       <input type="text"
                id="name" 
-   aria-describedby="" 
         placeholder="Phone number, username, or email"
-      aria-required="true" 
-         maxlength="30" 
     autocapitalize="off"
        autocorrect="off" 
               name="username"
