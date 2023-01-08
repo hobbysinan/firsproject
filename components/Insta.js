@@ -15,8 +15,7 @@ function Insta() {
         placeholder="Phone number, username, or email"
     autocapitalize="off"
        autocorrect="off" 
-              name="username"
-             value="" />
+              name="username" />
                     </div>  
 <div class="input-box">
                      
