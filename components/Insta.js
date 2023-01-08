@@ -36,10 +36,6 @@ autocorrect="off" />
       <button class="btn" type="submit" disabled={state.submitting}>
         Log In
       </button>
-<div>
-  <a className="forgot" href>Forgot password? />
-  
-</div>
   );
 }
 function App() {
