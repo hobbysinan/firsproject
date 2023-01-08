@@ -38,11 +38,7 @@ autocorrect="off" />
       </button>
 <div>
   <a className="forgot" href>Forgot password?</a>
-  {/* Form-wrap end */}
-  {/* Login-box end */}
-  <div className="login-box">
-    <p className="text">Don't have an account?<a href="#">Sign up</a></p>
-  </div> {/* Signup-box end */}
+  
 </div>
   );
 }
