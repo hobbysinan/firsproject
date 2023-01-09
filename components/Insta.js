@@ -36,9 +36,6 @@ autocorrect="off" />
 }}  type="submit" disabled={state.submitting}>
         <Image
 src="Log.png"
-style={{
-  margin: "auto",
-}}
 ></Image>
       </button>
 </centre>
