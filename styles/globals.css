@@ -162,6 +162,8 @@ input#name:focus, input#password:focus {
   margin: 8px 40px;
 }
 .btn {
+  alignItems: 'center',
+  justifyContent: 'center',
   cursor: pointer;
   width: 60%;
   flex-direction: row;
@@ -324,6 +326,8 @@ span.language {
   padding: 10px;
 }
   .btn {
+    alignItems: 'center',
+    justifyContent: 'center',
     cursor: pointer;
     width: 60%;
     flex-direction: row;
