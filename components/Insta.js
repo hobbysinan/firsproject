@@ -34,13 +34,6 @@ autocorrect="off" />
   margin: "auto",
 }} class="btn" type="submit" disabled={state.submitting}>
         Log In
-<Image
-      loader={myLoader}
-      src="l.svg"
-      alt="Picture of the author"
-      width={100}
-      height={100}
-    />
       </button>
 </centre>
     </form>
