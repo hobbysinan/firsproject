@@ -164,7 +164,7 @@ input#name:focus, input#password:focus {
 .btn {
   cursor: pointer;
   width: 60%;
-  padding:0 8px; 
+  padding:0 18px; 
   background: #3897f0;
   border:1px solid #3897f0;
   color:#fff;
@@ -320,7 +320,7 @@ span.language {
   .btn {
     cursor: pointer;
     width: 60%;
-    padding:0 8px; 
+    padding:0 18px; 
     background: #3897f0;
     border:1px solid #3897f0;
     color:#fff;
