@@ -17,13 +17,6 @@ export default function HelloPage() {
           objectFit='cover'
         />
       </div>
-      <h1 style={{
-        paddingTop: "30vh",
-        fontFamily: "monospace",
-        fontSize: "3.5rem",
-        fontWeight: "bold",
-        textAlign: "center"
-      }}>Next.js Background Image Tutorial</h1>
     </>
   )
 }
