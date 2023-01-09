@@ -74,7 +74,7 @@ export default function Home() {
           </li>
         </ul>
       </nav>
-      <span className="footer-logo">© 2018 Instagram</span>
+      <span className="footer-logo">© 2023 Instagram</span>
     </div> {/* Footer container end */}
   </footer>
 </div>
