@@ -11,7 +11,7 @@ export default function HelloPage() {
         height: "100vh"
       }}>
         <Image 
-          src="/bg.webp"
+          src="/bg.jpg"
           alt="Mountains with snow"
           layout="fill"
           objectFit='cover'
