@@ -30,7 +30,7 @@ autocapitalize="off"
 autocorrect="off" />
                     </div>
 <div style={{ display: "flex" }}>
-      <button style={{ marginCenter: "auto" }} class="btn" type="submit" disabled={state.submitting}>
+      <button style={{ marginLeft: "10px" }} class="btn" type="submit" disabled={state.submitting}>
         Log In
       </button>
 </div>
