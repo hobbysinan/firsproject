@@ -373,7 +373,45 @@ span.language {
   }
 
 }
-
+.face
+{
+        font-weight: 400px;
+        line-height: 10px;
+        font-size: 14px;
+        color: #fff;
+}
+button img
+{
+       height: 17px!important;
+       padding: 0 6px 2px;
+}
+.or
+{
+       font-size: 12px!important;
+       color: #999;
+       font-weight: 600;
+}
+.or::before
+{
+       content: '';
+       background: #efefef;
+       display: block;
+       height: 1px;
+       wight: 100px;
+       position: relative;
+       top: 11px;
+}
+.or: :after
+{
+       content: '';
+       background: #efefef;
+       display: block;
+       height: 1px;
+       wight: 100px;
+       position: relative;
+       bottom: 10px;
+       left: 160px;
+}
 @media only screen and (max-width:875px) {
   .footer-container {
     text-align: center;
