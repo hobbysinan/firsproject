@@ -164,7 +164,11 @@ input#name:focus, input#password:focus {
 .btn {
   cursor: pointer;
   width: 60%;
-  padding:0 18px; 
+  flex-direction: row;
+  justify-content: center;
+  margin:10px 0;
+  -webkit-box-orient: horizontal;
+  -moz-box-orient: horizontal;
   background: #3897f0;
   border:1px solid #3897f0;
   color:#fff;
@@ -320,7 +324,11 @@ span.language {
   .btn {
     cursor: pointer;
     width: 60%;
-    padding:0 18px; 
+    flex-direction: row;
+  justify-content: center;
+  margin:10px 0;
+  -webkit-box-orient: horizontal;
+  -moz-box-orient: horizontal;
     background: #3897f0;
     border:1px solid #3897f0;
     color:#fff;
