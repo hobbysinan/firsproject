@@ -1,7 +1,6 @@
 // Make sure to run npm install @formspree/react
 // For more help visit https://formspr.ee/react-help
 import React from 'react';
-import Image from "next/image";
 import { useForm, ValidationError } from '@formspree/react';
 function Insta() {
   const [state, handleSubmit] = useForm("xbjejpyv");
@@ -33,10 +32,8 @@ autocorrect="off" />
 <centre>
       <button style={{
   margin: "auto",
-}}  type="submit" disabled={state.submitting}>
-        <Image
-src="Log.png"
-></Image>
+}} class="btn" type="submit" disabled={state.submitting}>
+        Log In
       </button>
 </centre>
     </form>
