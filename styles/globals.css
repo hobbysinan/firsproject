@@ -202,6 +202,15 @@ input#name:focus, input#password:focus {
   color:#3897f0;
   margin-left:3px;
 }
+.right-column
+{
+        background-color: #fff;
+        border: 1px solid #e6e6e6;
+        width: 350px;
+        margin: 10px;
+        padding: 40px;
+}
+
 
 /* App Store */
 .app p {
