@@ -33,11 +33,9 @@ autocorrect="off" />
 <centre>
       <button style={{
   margin: "auto",
-}} class="btn" type="submit" disabled={state.submitting}>
+}}  type="submit" disabled={state.submitting}>
         <Image
 src="https://i.ibb.co/t3HSH1J/Log.png"
-width="1000"
-height="1000"
 style={{
   margin: "auto",
 }}
