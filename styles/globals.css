@@ -163,7 +163,7 @@ input#name:focus, input#password:focus {
 }
 .btn {
   cursor: pointer;
-  width: 100%;
+  width: 60%;
   padding:0 8px; 
   background: #3897f0;
   border:1px solid #3897f0;
@@ -175,8 +175,7 @@ input#name:focus, input#password:focus {
   line-height: 26px;
   outline: none;
   white-space: nowrap;
-  margin:0 0 10px;
-  padding: 10px 0;
+  
 }
 
 .forgot, .forgot:active, .forgot:hover, .forgot:visited {
@@ -318,7 +317,7 @@ span.language {
 
   .btn {
     cursor: pointer;
-    width: 100%;
+    width: 60%;
     padding:0 8px; 
     background: #3897f0;
     border:1px solid #3897f0;
@@ -330,8 +329,7 @@ span.language {
     line-height: 26px;
     outline: none;
     white-space: nowrap;
-    margin:0 0 10px;
-    padding: 10px 0;
+    
   }
 
   .input-box {
