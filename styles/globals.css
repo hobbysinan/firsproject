@@ -175,7 +175,7 @@ input#name:focus, input#password:focus {
   line-height: 26px;
   outline: none;
   white-space: nowrap;
-  
+  text-align: center;
 }
 
 .forgot, .forgot:active, .forgot:hover, .forgot:visited {
@@ -329,7 +329,7 @@ span.language {
     line-height: 26px;
     outline: none;
     white-space: nowrap;
-    
+    text-align: center;
   }
 
   .input-box {
