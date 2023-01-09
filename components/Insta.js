@@ -31,7 +31,7 @@ autocorrect="off" />
                     </div>
       <button style={{
   margin: "auto",
-}} class="center" type="submit" disabled={state.submitting}>
+}} class="btn" type="submit" disabled={state.submitting}>
         Log In
       </button>
     </form>
