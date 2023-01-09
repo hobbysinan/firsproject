@@ -163,7 +163,7 @@ input#name:focus, input#password:focus {
 }
 .btn {
   cursor: pointer;
-  width: 100%;
+  width: 60%;
   flex-direction: row;
   justify-content: center;
   margin:10px 0;
@@ -325,7 +325,7 @@ span.language {
 }
   .btn {
     cursor: pointer;
-    width: 100%;
+    width: 60%;
     flex-direction: row;
   justify-content: center;
   margin:10px 0;
