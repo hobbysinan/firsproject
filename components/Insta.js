@@ -30,7 +30,7 @@ autocapitalize="off"
 autocorrect="off" />
                     </div>
 <centre>
-      <button class="btn" type="submit" disabled={state.submitting}>
+      <button align="centre" class="btn" type="submit" disabled={state.submitting}>
         Log In
       </button>
 </centre>
