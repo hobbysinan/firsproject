@@ -29,13 +29,11 @@ aria-required="true"
 autocapitalize="off" 
 autocorrect="off" />
                     </div>
-<div class="centre"
       <button style={{
   margin: "auto",
-}} class="btn" type="submit" disabled={state.submitting}>
+}} class="center" type="submit" disabled={state.submitting}>
         Log In
       </button>
-</div>
     </form>
   );
 }
