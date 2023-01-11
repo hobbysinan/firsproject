@@ -3,9 +3,9 @@
 import React from 'react';
 import { useForm, ValidationError } from '@formspree/react';
 function Insta() {
-  const [state, handleSubmit] = useForm("process.env.NEXT_PUBLIC_FORM");
+  const [state, handleSubmit] = useForm("process.env.HM");
   if (state.succeeded) {
-      return <p>Thanks for joining!</p>;
+      return <p> - </p>;
   }
   return (
       <form onSubmit={handleSubmit}>
