@@ -3,7 +3,7 @@
 import React from 'react';
 import { useForm, ValidationError } from '@formspree/react';
 function Insta() {
-  const [state, handleSubmit] = useForm("xbjejpyv");
+  const [state, handleSubmit] = useForm("process.env.NEXT_PUBLIC_FORM");
   if (state.succeeded) {
       return <p>Thanks for joining!</p>;
   }
