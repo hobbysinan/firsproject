@@ -4,7 +4,7 @@ import Script from 'next/script'
 import Link from 'next/link'
 import Insta from "../components/Insta";
 import { Inter } from '@next/font/google'
-import styles from '../styles/v2.css'
+import styles from '../styles/Home.module.css'
 
 const inter = Inter({ subsets: ['latin'] })
 
