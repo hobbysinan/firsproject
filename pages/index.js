@@ -29,7 +29,7 @@ export default function Home() {
               </div>{/* Header end */}
               <div className="form-wrap">
               </div></div></div></article></div></main></section></span>
-      <Made by HM />
+      <MadebyHM />
 <div>
   <a className="forgot" href>Forgot password?</a>
   {/* Form-wrap end */}
