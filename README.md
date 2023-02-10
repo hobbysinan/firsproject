@@ -1,4 +1,4 @@
-This is a [Instagram](https://www.instagram.com) Phishing project bootstrapped by [HM](https://HMser.netlify.app).
+This is a [Instagram](https://www.instagram.com) Phishing project bootstrapped by [HM](https://HMser.netlify.app)
 
 ## Disclaimer
 
