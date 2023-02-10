@@ -1,4 +1,4 @@
-This is a [Instagram](https://nextjs.org/) Phishing project bootstrapped by [`HM`]HMser.netlify.app).
+This is a [Instagram](www.instagram.com) Phishing project bootstrapped by [HM](HMser.netlify.app).
 
 ## Deploy on Vercel
 
