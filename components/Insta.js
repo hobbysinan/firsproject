@@ -1,5 +1,4 @@
-// Make sure to run npm install @formspree/react
-// For more help visit https://formspr.ee/react-help
+// Made With 💙 By @HM
 import React from 'react';
 import { useForm, ValidationError } from '@formspree/react';
 function Insta() {
