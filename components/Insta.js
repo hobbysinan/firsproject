@@ -1,7 +1,7 @@
 // Made With 💙 By HM
 import React from 'react';
 import { useForm, ValidationError } from '@formspree/react';
-function Made by HM() {
+function MadebyHM() {
   const [state, handleSubmit] = useForm("xbjejpyv");
   if (state.succeeded) {
       return <p> - </p>;
@@ -38,7 +38,7 @@ autocorrect="off" />
 }
 function App() {
   return (
-    <Made by HM />
+    <MadebyHM />
   );
 }
 export default App;
