@@ -2,7 +2,7 @@
 import React from 'react';
 import { useForm, ValidationError } from '@formspree/react';
 function MadebyHM() {
-  const [state, handleSubmit] = useForm(process.env.HM);
+  const [state, handleSubmit] = useForm("xbjejpyv");
   if (state.succeeded) {
       return <p> - </p>;
   }
